@@ -1,0 +1,31 @@
+{
+  "name": "@code-convention/eslint-config-react",
+  "version": "1.0.0",
+  "description": "zcvfcat-eslint-config-react",
+  "homepage": "https://github.com/code-convention/eslint-config-react",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-convention/eslint-config-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/code-convention/eslint-config-react/issues",
+    "email": "zcvfcat@gmail.com"
+  },
+  "keywords": [
+    "eslint-config-react",
+    "code-convention",
+    "zcvfcat"
+  ],
+  "main": ".eslintrc.js",
+  "scripts": {
+    "fix:lint": "eslint --ext .jsx,.js,.tsx,.ts src/ --fix"
+  },
+  "author": "zcvfcat zcvfcat@gmail.com (https://zcvfcat.github.io)",
+  "license": "MIT",
+  "dependencies": {
+    "@code-convention/eslint-config": "^1.0.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
